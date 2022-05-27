@@ -40,7 +40,7 @@ public class Testcase_01 extends BaseClass{
 			captureScreen(driver,"Logintest");
 		}
 		softassert.assertAll();
-		logger.info("Completed Logintest");
+		logger.info("Completed Logintest!");
 		
 	}
 
