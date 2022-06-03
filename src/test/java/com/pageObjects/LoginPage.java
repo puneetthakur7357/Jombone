@@ -55,6 +55,14 @@ public class LoginPage {
 	@FindBy(xpath = "//*[@id=\"candidateLogin\"]/div[3]/div[3]/div[1]/a")
 	@CacheLookup
 	WebElement forgotPasswordLink;
+	
+	//capture please enter  email
+	@FindBy(xpath = ".//*[@id='candidateLogin']/div[3]/div[1]/div/span")
+	WebElement emailError;
+	
+	//capture please enter  password
+		@FindBy(xpath = ".//*[@id='candidateLogin']/div[3]/div[2]/div/div/span")
+		WebElement passError;
 
 	// ==================Action methods===========================//
 
@@ -81,9 +89,13 @@ public class LoginPage {
 	}
 
 	// display "invalid credentials" message
-	public Boolean displayInvalidCredentialsMessage() {
-		return invalidCredentialsText.isDisplayed();
+	public String displayInvalidCredentialsMessage() {
+		@SuppressWarnings("deprecation")
+		WebDriverWait wait = new WebDriverWait(ldriver, 25);
+		wait.until(ExpectedConditions.visibilityOf(invalidCredentialsText));
+		return invalidCredentialsText.getText();
 	}
+	
 
 	// click on sign up link
 	public void clickOnSignUpLink() {
@@ -114,5 +126,18 @@ public class LoginPage {
 	public Boolean isSubmitButtonDisplayed() {
 		return btnSubmit.isDisplayed();
 	}
+	
+	//To return email error message
+	public String getEmailErrorMessage(){
+	String message = 	emailError.getText();
+		return message;
+		
+	}
+	//To return password error message
+		public String getPasswordErrorMessage(){
+		String message = 	passError.getText();
+			return message;
+			
+		}
 
 }

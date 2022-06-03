@@ -57,5 +57,17 @@ public class ReadConfig
 	String browser=pro.getProperty("browser");
 	return browser;
 	}
+	
+	public String getInvalidUsername(){
+		String invalidUsername = pro.getProperty("invalidUsername");
+		return invalidUsername;
+		
+	}
+	
+	public String getInvalidPassword(){
+		String invalidPassword = pro.getProperty("invalidPassword");
+		return invalidPassword;
+		
+	}
 		
 }
