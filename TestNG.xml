@@ -10,7 +10,17 @@
 	<test name="TestNGTest1" thread-count="5">
 		<classes>
 			<!-- packagename.classname -->
-			  <class name="com.testCases.Testcase_01" />
+			  <class name="com.testCases.JMB_CALogin_001" />
+			  <class name="com.testCases.JMB_CALogin_002" />
+			  <class name="com.testCases.JMB_CALogin_003" />
+			  <class name="com.testCases.JMB_CALogin_004" />
+			  <class name="com.testCases.JMB_CALogin_005" />
+			  <class name="com.testCases.JMB_CALogin_006" />
+			  <class name="com.testCases.JMB_CALogin_007" />
+			  <class name="com.testCases.JMB_CALogin_008" />
+			  <class name="com.testCases.JMB_CALogin_010" />
+			  <class name="com.testCases.JMB_CALogin_011" />
+			 
            
 		</classes>
 	</test>

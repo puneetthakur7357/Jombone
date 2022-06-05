@@ -69,5 +69,16 @@ public class ReadConfig
 		return invalidPassword;
 		
 	}
+	public String getCompanyUsername(){
+		String cUsername = pro.getProperty("cUsername");
+		return cUsername;
+		
+	}
+	
+	public String getCompanyPassword(){
+		String cPassword = pro.getProperty("cPassword");
+		return cPassword;
+		
+	}
 		
 }

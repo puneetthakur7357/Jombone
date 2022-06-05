@@ -12,36 +12,34 @@ import com.pageObjects.Homepage;
 import com.pageObjects.LoginPage;
 import com.utilities.Reporting;;
 
-public class Testcase_07 extends BaseClass{
+public class JMB_CALogin_008 extends BaseClass{
 
 	@Test(priority=1)
-	public void candidateSignup() throws IOException, InterruptedException{
+	public void loginTest08() throws IOException, InterruptedException{
 	
 		logger.debug("Signup test case started");  //Loggin the test
 		Homepage jHome = new Homepage(driver); //creating Object of homepage
 		jHome.clicklogin(); //click on login
 		logger.debug("Clicked on login");
 		LoginPage lp = new LoginPage(driver); //creating Object of LoginPage
-		lp.clickOnSignUpLink(); //click on login
-		logger.debug("Clicked on Signup");
-		lp.clickOnCandidateSignUpLink();
-		logger.debug("Clicked on Candidate Signup");
+		lp.clickOnForgotPasswordLink();
+		logger.debug("Clicked forgot password");
 	
 		//Checking for if landed on Signup page
 		SoftAssert softassert = new SoftAssert(); 
-		if(driver.getTitle().equals("Signup"))
+		if(driver.getTitle().equals("Forgot Password"))
 		{
 			softassert.assertTrue(true);
-			logger.debug("Test Passed! Landed on Signup page!");
+			logger.debug("Test Passed! Landed on forgot password page!");
 		}
 		else
 		{
 			softassert.assertTrue(false);
-			logger.error("Test Failed! Signup page not found");
-			captureScreen(driver,"Sign up page");
+			logger.error("Test Failed! forgot password page not found");
+			captureScreen(driver,"loginTest08");
 		}
 		softassert.assertAll();
-		logger.debug("Completed TestCase_07 Signup Test!");
+		logger.debug("Completed TestCase_08 Forgotpassword Test!");
 		
 	}
 

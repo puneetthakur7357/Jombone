@@ -10,7 +10,7 @@ import com.base.BaseClass;
 import com.pageObjects.Homepage;
 import com.pageObjects.LoginPage;
 
-public class Testcase_03 extends BaseClass{
+public class JMB_CALogin_003 extends BaseClass{
 	
 	@Test(priority=1)
 	public void loginTest03() throws IOException{
@@ -41,7 +41,7 @@ public class Testcase_03 extends BaseClass{
 		{
 			softassert.assertTrue(false);
 			logger.error("Test Failed! Login failed!");
-			captureScreen(driver,"Logintest");
+			captureScreen(driver,"loginTest03");
 		}
 		softassert.assertAll();
 		logger.debug("Completed TestCase_03 Logintest!");
