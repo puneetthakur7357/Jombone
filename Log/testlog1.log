@@ -3359,3 +3359,154 @@
 2022-06-04 20:07:03,540 [main] DEBUG Jombone - Username invalid email and valid password entered
 2022-06-04 20:07:03,615 [main] DEBUG Jombone - Test Passed! Login Successful!
 2022-06-04 20:07:03,616 [main] DEBUG Jombone - Completed TestCase_06 Logintest!
+2022-06-06 19:48:32,390 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:48:36,475 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 19:48:37,863 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:48:38,046 [main] ERROR Jombone - Test Failed! Login failed!
+2022-06-06 19:49:44,980 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:49:49,367 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 19:49:50,655 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:49:50,817 [main] DEBUG Jombone - Test Passed! Candidate Login Successful!
+2022-06-06 19:49:50,817 [main] DEBUG Jombone - Completed TestCase_Company_02 Logintest!
+2022-06-06 19:54:00,139 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:54:04,440 [main] DEBUG Jombone - Login test case started
+2022-06-06 19:54:05,794 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:54:05,798 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:54:11,118 [main] DEBUG Jombone - Username and password entered
+2022-06-06 19:54:11,143 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 19:54:11,143 [main] DEBUG Jombone - Completed TestCase_01 Logintest!
+2022-06-06 19:54:21,653 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:54:25,743 [main] DEBUG Jombone - Blank email login test case started
+2022-06-06 19:54:31,046 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:54:31,048 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:55:07,239 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:55:11,766 [main] DEBUG Jombone - Blank password login test case started
+2022-06-06 19:55:22,308 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:55:26,956 [main] DEBUG Jombone - Invalid password login test case started
+2022-06-06 19:55:37,288 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:55:41,642 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 19:55:42,647 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:55:42,648 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:55:43,254 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 19:55:43,335 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 19:55:43,336 [main] DEBUG Jombone - Completed TestCase_05 Logintest!
+2022-06-06 19:55:53,938 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:55:57,960 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 19:56:00,487 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:56:00,489 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:56:01,253 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 19:56:01,350 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 19:56:01,350 [main] DEBUG Jombone - Completed TestCase_06 Logintest!
+2022-06-06 19:56:11,877 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:56:15,652 [main] DEBUG Jombone - Signup test case started
+2022-06-06 19:56:17,095 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:56:17,215 [main] DEBUG Jombone - Clicked on Signup
+2022-06-06 19:56:18,098 [main] DEBUG Jombone - Clicked on Candidate Signup
+2022-06-06 19:56:18,105 [main] DEBUG Jombone - Test Passed! Landed on Signup page!
+2022-06-06 19:56:18,105 [main] DEBUG Jombone - Completed TestCase_07 Signup Test!
+2022-06-06 19:56:28,451 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:56:32,586 [main] DEBUG Jombone - Signup test case started
+2022-06-06 19:56:33,497 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:56:33,913 [main] DEBUG Jombone - Clicked forgot password
+2022-06-06 19:56:33,931 [main] DEBUG Jombone - Test Passed! Landed on forgot password page!
+2022-06-06 19:56:33,932 [main] DEBUG Jombone - Completed TestCase_08 Forgotpassword Test!
+2022-06-06 19:56:44,411 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:56:48,532 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 19:56:49,325 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:56:49,428 [main] DEBUG Jombone - Test Passed! Candidate Login Successful!
+2022-06-06 19:56:49,429 [main] DEBUG Jombone - Completed JMB_CALogin_009
+2022-06-06 19:57:00,114 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:57:03,829 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 19:57:05,199 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:57:05,200 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:57:10,548 [main] DEBUG Jombone - Username and password entered
+2022-06-06 19:57:10,557 [main] DEBUG Jombone - Test Passed! Candidate Login Successful!
+2022-06-06 19:57:10,558 [main] DEBUG Jombone - Completed TestCase_10!
+2022-06-06 19:57:21,346 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 19:57:24,893 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 19:57:25,818 [main] DEBUG Jombone - Clicked on login
+2022-06-06 19:57:25,819 [main] DEBUG Jombone - Login page opened
+2022-06-06 19:57:26,695 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 19:57:26,844 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 19:57:26,845 [main] DEBUG Jombone - Completed TestCase_11
+2022-06-06 20:01:07,018 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:01:10,585 [main] DEBUG Jombone - Blank email login test case started
+2022-06-06 20:01:11,875 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:01:11,880 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:01:12,217 [main] DEBUG Jombone - Username blank and valid password entered
+2022-06-06 20:01:12,263 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:01:12,263 [main] DEBUG Jombone - Completed TestCase_02 Logintest!
+2022-06-06 20:05:26,735 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:05:30,498 [main] DEBUG Jombone - Login test case started
+2022-06-06 20:05:31,739 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:05:31,746 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:05:36,572 [main] DEBUG Jombone - Username and password entered
+2022-06-06 20:05:36,591 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:05:36,592 [main] DEBUG Jombone - Completed TestCase_01 Logintest!
+2022-06-06 20:05:47,115 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:05:51,027 [main] DEBUG Jombone - Blank email login test case started
+2022-06-06 20:05:52,469 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:05:52,474 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:05:52,741 [main] DEBUG Jombone - Username blank and valid password entered
+2022-06-06 20:05:52,826 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:05:52,826 [main] DEBUG Jombone - Completed TestCase_02 Logintest!
+2022-06-06 20:06:03,200 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:06:07,427 [main] DEBUG Jombone - Blank password login test case started
+2022-06-06 20:06:08,586 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:06:08,588 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:06:08,899 [main] DEBUG Jombone - Username valid email and blank password entered
+2022-06-06 20:06:08,980 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:06:09,032 [main] DEBUG Jombone - Completed TestCase_03 Logintest!
+2022-06-06 20:06:19,310 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:06:23,444 [main] DEBUG Jombone - Invalid password login test case started
+2022-06-06 20:06:24,225 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:06:24,227 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:06:24,956 [main] DEBUG Jombone - Username Valid email and Invalid password entered
+2022-06-06 20:06:25,038 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:06:25,039 [main] DEBUG Jombone - Completed TestCase_04 Logintest!
+2022-06-06 20:06:35,399 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:06:38,333 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 20:06:39,705 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:06:39,706 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:06:40,378 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 20:06:40,477 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:06:40,477 [main] DEBUG Jombone - Completed TestCase_05 Logintest!
+2022-06-06 20:06:50,986 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:06:54,532 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 20:06:55,528 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:06:55,529 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:06:56,427 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 20:06:56,527 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:06:56,528 [main] DEBUG Jombone - Completed TestCase_06 Logintest!
+2022-06-06 20:07:06,870 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:07:10,350 [main] DEBUG Jombone - Signup test case started
+2022-06-06 20:07:11,278 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:07:11,379 [main] DEBUG Jombone - Clicked on Signup
+2022-06-06 20:07:12,226 [main] DEBUG Jombone - Clicked on Candidate Signup
+2022-06-06 20:07:12,236 [main] DEBUG Jombone - Test Passed! Landed on Signup page!
+2022-06-06 20:07:12,236 [main] DEBUG Jombone - Completed TestCase_07 Signup Test!
+2022-06-06 20:07:23,221 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:07:27,024 [main] DEBUG Jombone - Signup test case started
+2022-06-06 20:07:27,924 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:07:28,179 [main] DEBUG Jombone - Clicked forgot password
+2022-06-06 20:07:28,197 [main] DEBUG Jombone - Test Passed! Landed on forgot password page!
+2022-06-06 20:07:28,197 [main] DEBUG Jombone - Completed TestCase_08 Forgotpassword Test!
+2022-06-06 20:07:38,400 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:07:42,168 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 20:07:43,059 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:07:43,173 [main] DEBUG Jombone - Test Passed! Candidate Login Successful!
+2022-06-06 20:07:43,173 [main] DEBUG Jombone - Completed JMB_CALogin_009
+2022-06-06 20:07:51,692 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:07:55,547 [main] DEBUG Jombone - Company Login test case started
+2022-06-06 20:07:56,555 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:07:56,557 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:08:01,456 [main] DEBUG Jombone - Username and password entered
+2022-06-06 20:08:01,478 [main] DEBUG Jombone - Test Passed! Candidate Login Successful!
+2022-06-06 20:08:01,479 [main] DEBUG Jombone - Completed TestCase_10!
+2022-06-06 20:08:11,926 [main] DEBUG Jombone - Debug logging has started 
+2022-06-06 20:08:15,591 [main] DEBUG Jombone - Invalid email login test case started
+2022-06-06 20:08:16,786 [main] DEBUG Jombone - Clicked on login
+2022-06-06 20:08:16,787 [main] DEBUG Jombone - Login page opened
+2022-06-06 20:08:17,369 [main] DEBUG Jombone - Username invalid email and valid password entered
+2022-06-06 20:08:17,462 [main] DEBUG Jombone - Test Passed! Login Successful!
+2022-06-06 20:08:17,462 [main] DEBUG Jombone - Completed TestCase_11

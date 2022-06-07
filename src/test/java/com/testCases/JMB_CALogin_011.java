@@ -55,7 +55,7 @@ public class JMB_CALogin_011 extends BaseClass{
 			captureScreen(driver,"loginTest11");
 		}
 		softassert.assertAll();
-		logger.debug("Completed TestCase_06 Logintest!");
+		logger.debug("Completed TestCase_11");
 		
 	}
 

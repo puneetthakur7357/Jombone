@@ -13,30 +13,31 @@ import com.pageObjects.LoginPage;
 import com.utilities.ReadConfig;
 import com.utilities.Reporting;;
 
-public class JMB_CALogin_010 extends BaseClass{
+public class JMB_CALogin_009 extends BaseClass{
 
 	@Test(priority=1)
-	public void loginTest10() throws IOException, InterruptedException{
-		 ReadConfig  readconfig = new ReadConfig();//Creating object of ReadConfig
-		 String cUsername = readconfig.getCompanyUsername();
-		 String cPassword = readconfig.getCompanyPassword();
+	public void loginTest09() throws IOException, InterruptedException{
+		
 		logger.debug("Company Login test case started");  //Loggin the test
 		Homepage jHome = new Homepage(driver); //creating Object of homepage
 		jHome.clicklogin(); //click on login
 		logger.debug("Clicked on login");
 		
 		LoginPage loginpg = new LoginPage(driver);
-		logger.debug("Login page opened");
-		loginpg.settxtemail(cUsername);		//Pass username1 declared in config file
 		
-		loginpg.settxtpassword(cPassword);	//Pass password declared in config file
-		loginpg.clkbtnSubmit();             //Click on submit button
+		// Creating variables to capture the return value of primary content. if they are visible to login page or not
+		Boolean emaildisplay =loginpg.isEmailTextBoxDisplayed(); 
+		Boolean passdisplay =loginpg.isPasswordTextBoxDisplayed();
+		Boolean submitdisplay =loginpg.isSubmitButtonDisplayed();
 		
-		logger.debug("Username and password entered");
-	
 		
 		SoftAssert softassert = new SoftAssert(); 
-		if(driver.getTitle().equals("Dashboard"))
+		
+		System.out.println(emaildisplay);
+		System.out.println(passdisplay);
+		System.out.println(submitdisplay);
+		if(emaildisplay && passdisplay && submitdisplay == true)  //asserting if all fields are captured
+			
 		{
 			softassert.assertTrue(true);
 			logger.debug("Test Passed! Candidate Login Successful!");
@@ -45,10 +46,10 @@ public class JMB_CALogin_010 extends BaseClass{
 		{
 			softassert.assertTrue(false);
 			logger.error("Test Failed! Login failed!");
-			captureScreen(driver,"loginTest10");
+			captureScreen(driver,"loginTest09");
 		}
 		softassert.assertAll();
-		logger.debug("Completed TestCase_10!");
+		logger.debug("Completed JMB_CALogin_009");
 		
 	}
 

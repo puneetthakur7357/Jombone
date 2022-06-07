@@ -6,6 +6,20 @@
   </listeners>
   <test thread-count="5" name="TestNGTest1(failed)">
     <classes>
+      <class name="com.testCases.JMB_CALogin_002">
+        <methods>
+          <include name="loginTest02"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testCases.JMB_CALogin_002 -->
+      <class name="com.testCases.JMB_CALogin_003">
+        <methods>
+          <include name="loginTest03"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testCases.JMB_CALogin_003 -->
       <class name="com.testCases.JMB_CALogin_004">
         <methods>
           <include name="loginTest04"/>

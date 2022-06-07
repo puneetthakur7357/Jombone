@@ -1,147 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="JomboneTestSuite" duration-ms="171049" started-at="2022-06-05T00:04:13Z" finished-at="2022-06-05T00:07:04Z">
+  <suite name="JomboneTestSuite" duration-ms="184023" started-at="2022-06-07T00:05:14Z" finished-at="2022-06-07T00:08:18Z">
     <groups>
     </groups>
-    <test name="TestNGTest1" duration-ms="171049" started-at="2022-06-05T00:04:13Z" finished-at="2022-06-05T00:07:04Z">
+    <test name="TestNGTest1" duration-ms="184023" started-at="2022-06-07T00:05:14Z" finished-at="2022-06-07T00:08:18Z">
       <class name="com.testCases.JMB_CALogin_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_001@6ee52dcd]" name="setup" is-config="true" duration-ms="15756" started-at="2022-06-05T00:04:13Z" finished-at="2022-06-05T00:04:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_001@4493d195]" name="setup" is-config="true" duration-ms="15987" started-at="2022-06-07T00:05:14Z" finished-at="2022-06-07T00:05:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest01()[pri:1, instance:com.testCases.JMB_CALogin_001@6ee52dcd]" name="loginTest01" duration-ms="7114" started-at="2022-06-05T00:04:29Z" finished-at="2022-06-05T00:04:36Z">
+        <test-method status="PASS" signature="loginTest01()[pri:1, instance:com.testCases.JMB_CALogin_001@4493d195]" name="loginTest01" duration-ms="6123" started-at="2022-06-07T00:05:30Z" finished-at="2022-06-07T00:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_001@6ee52dcd]" name="tearDown" is-config="true" duration-ms="813" started-at="2022-06-05T00:04:36Z" finished-at="2022-06-05T00:04:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_001@4493d195]" name="tearDown" is-config="true" duration-ms="853" started-at="2022-06-07T00:05:36Z" finished-at="2022-06-07T00:05:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_001 -->
       <class name="com.testCases.JMB_CALogin_011">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_011@34cd072c]" name="setup" is-config="true" duration-ms="13105" started-at="2022-06-05T00:06:47Z" finished-at="2022-06-05T00:07:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_011@5faeada1]" name="setup" is-config="true" duration-ms="13188" started-at="2022-06-07T00:08:02Z" finished-at="2022-06-07T00:08:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest06()[pri:1, instance:com.testCases.JMB_CALogin_011@34cd072c]" name="loginTest06" duration-ms="3080" started-at="2022-06-05T00:07:00Z" finished-at="2022-06-05T00:07:03Z">
+        <test-method status="PASS" signature="loginTest11()[pri:1, instance:com.testCases.JMB_CALogin_011@5faeada1]" name="loginTest11" duration-ms="1873" started-at="2022-06-07T00:08:15Z" finished-at="2022-06-07T00:08:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest06 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_011@34cd072c]" name="tearDown" is-config="true" duration-ms="833" started-at="2022-06-05T00:07:03Z" finished-at="2022-06-05T00:07:04Z">
+        </test-method> <!-- loginTest11 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_011@5faeada1]" name="tearDown" is-config="true" duration-ms="806" started-at="2022-06-07T00:08:17Z" finished-at="2022-06-07T00:08:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_011 -->
       <class name="com.testCases.JMB_CALogin_010">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_010@11438d26]" name="setup" is-config="true" duration-ms="13695" started-at="2022-06-05T00:06:27Z" finished-at="2022-06-05T00:06:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_010@7a1ebcd8]" name="setup" is-config="true" duration-ms="11525" started-at="2022-06-07T00:07:44Z" finished-at="2022-06-07T00:07:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest01()[pri:1, instance:com.testCases.JMB_CALogin_010@11438d26]" name="loginTest01" duration-ms="5410" started-at="2022-06-05T00:06:40Z" finished-at="2022-06-05T00:06:46Z">
+        <test-method status="PASS" signature="loginTest10()[pri:1, instance:com.testCases.JMB_CALogin_010@7a1ebcd8]" name="loginTest10" duration-ms="5935" started-at="2022-06-07T00:07:55Z" finished-at="2022-06-07T00:08:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_010@11438d26]" name="tearDown" is-config="true" duration-ms="1019" started-at="2022-06-05T00:06:46Z" finished-at="2022-06-05T00:06:47Z">
+        </test-method> <!-- loginTest10 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_010@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="918" started-at="2022-06-07T00:08:01Z" finished-at="2022-06-07T00:08:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_010 -->
       <class name="com.testCases.JMB_CALogin_005">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_005@4232c52b]" name="setup" is-config="true" duration-ms="13958" started-at="2022-06-05T00:05:25Z" finished-at="2022-06-05T00:05:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_005@1877ab81]" name="setup" is-config="true" duration-ms="12511" started-at="2022-06-07T00:06:25Z" finished-at="2022-06-07T00:06:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest05()[pri:1, instance:com.testCases.JMB_CALogin_005@4232c52b]" name="loginTest05" duration-ms="1682" started-at="2022-06-05T00:05:39Z" finished-at="2022-06-05T00:05:40Z">
+        <test-method status="PASS" signature="loginTest05()[pri:1, instance:com.testCases.JMB_CALogin_005@1877ab81]" name="loginTest05" duration-ms="2147" started-at="2022-06-07T00:06:38Z" finished-at="2022-06-07T00:06:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest05 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_005@4232c52b]" name="tearDown" is-config="true" duration-ms="806" started-at="2022-06-05T00:05:40Z" finished-at="2022-06-05T00:05:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_005@1877ab81]" name="tearDown" is-config="true" duration-ms="962" started-at="2022-06-07T00:06:40Z" finished-at="2022-06-07T00:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_005 -->
       <class name="com.testCases.JMB_CALogin_004">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_004@57e1b0c]" name="setup" is-config="true" duration-ms="13663" started-at="2022-06-05T00:05:08Z" finished-at="2022-06-05T00:05:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_004@4232c52b]" name="setup" is-config="true" duration-ms="13633" started-at="2022-06-07T00:06:09Z" finished-at="2022-06-07T00:06:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest04()[pri:1, instance:com.testCases.JMB_CALogin_004@57e1b0c]" name="loginTest04" duration-ms="2089" started-at="2022-06-05T00:05:22Z" finished-at="2022-06-05T00:05:24Z">
+        <test-method status="PASS" signature="loginTest04()[pri:1, instance:com.testCases.JMB_CALogin_004@4232c52b]" name="loginTest04" duration-ms="1604" started-at="2022-06-07T00:06:23Z" finished-at="2022-06-07T00:06:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest04 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_004@57e1b0c]" name="tearDown" is-config="true" duration-ms="784" started-at="2022-06-05T00:05:24Z" finished-at="2022-06-05T00:05:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_004@4232c52b]" name="tearDown" is-config="true" duration-ms="774" started-at="2022-06-07T00:06:25Z" finished-at="2022-06-07T00:06:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_004 -->
       <class name="com.testCases.JMB_CALogin_003">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_003@2781e022]" name="setup" is-config="true" duration-ms="13442" started-at="2022-06-05T00:04:53Z" finished-at="2022-06-05T00:05:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_003@57e1b0c]" name="setup" is-config="true" duration-ms="13825" started-at="2022-06-07T00:05:53Z" finished-at="2022-06-07T00:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest03()[pri:1, instance:com.testCases.JMB_CALogin_003@2781e022]" name="loginTest03" duration-ms="1442" started-at="2022-06-05T00:05:06Z" finished-at="2022-06-05T00:05:07Z">
+        <test-method status="PASS" signature="loginTest03()[pri:1, instance:com.testCases.JMB_CALogin_003@57e1b0c]" name="loginTest03" duration-ms="1610" started-at="2022-06-07T00:06:07Z" finished-at="2022-06-07T00:06:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest03 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_003@2781e022]" name="tearDown" is-config="true" duration-ms="777" started-at="2022-06-05T00:05:07Z" finished-at="2022-06-05T00:05:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_003@57e1b0c]" name="tearDown" is-config="true" duration-ms="766" started-at="2022-06-07T00:06:09Z" finished-at="2022-06-07T00:06:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_003 -->
       <class name="com.testCases.JMB_CALogin_002">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_002@4493d195]" name="setup" is-config="true" duration-ms="13503" started-at="2022-06-05T00:04:37Z" finished-at="2022-06-05T00:04:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_002@2781e022]" name="setup" is-config="true" duration-ms="13557" started-at="2022-06-07T00:05:37Z" finished-at="2022-06-07T00:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest02()[pri:1, instance:com.testCases.JMB_CALogin_002@4493d195]" name="loginTest02" duration-ms="1366" started-at="2022-06-05T00:04:50Z" finished-at="2022-06-05T00:04:52Z">
+        <test-method status="PASS" signature="loginTest02()[pri:1, instance:com.testCases.JMB_CALogin_002@2781e022]" name="loginTest02" duration-ms="1802" started-at="2022-06-07T00:05:51Z" finished-at="2022-06-07T00:05:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest02 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_002@4493d195]" name="tearDown" is-config="true" duration-ms="827" started-at="2022-06-05T00:04:52Z" finished-at="2022-06-05T00:04:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_002@2781e022]" name="tearDown" is-config="true" duration-ms="762" started-at="2022-06-07T00:05:52Z" finished-at="2022-06-07T00:05:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_002 -->
-      <class name="com.testCases.JMB_CALogin_008">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_008@458c1321]" name="setup" is-config="true" duration-ms="13690" started-at="2022-06-05T00:06:11Z" finished-at="2022-06-05T00:06:25Z">
+      <class name="com.testCases.JMB_CALogin_009">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_009@34cd072c]" name="setup" is-config="true" duration-ms="13176" started-at="2022-06-07T00:07:28Z" finished-at="2022-06-07T00:07:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="candidateSignup()[pri:1, instance:com.testCases.JMB_CALogin_008@458c1321]" name="candidateSignup" duration-ms="1364" started-at="2022-06-05T00:06:25Z" finished-at="2022-06-05T00:06:26Z">
+        <test-method status="PASS" signature="loginTest09()[pri:1, instance:com.testCases.JMB_CALogin_009@34cd072c]" name="loginTest09" duration-ms="1007" started-at="2022-06-07T00:07:42Z" finished-at="2022-06-07T00:07:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- candidateSignup -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_008@458c1321]" name="tearDown" is-config="true" duration-ms="832" started-at="2022-06-05T00:06:26Z" finished-at="2022-06-05T00:06:27Z">
+        </test-method> <!-- loginTest09 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_009@34cd072c]" name="tearDown" is-config="true" duration-ms="843" started-at="2022-06-07T00:07:43Z" finished-at="2022-06-07T00:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.JMB_CALogin_009 -->
+      <class name="com.testCases.JMB_CALogin_008">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_008@11438d26]" name="setup" is-config="true" duration-ms="13587" started-at="2022-06-07T00:07:13Z" finished-at="2022-06-07T00:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest08()[pri:1, instance:com.testCases.JMB_CALogin_008@11438d26]" name="loginTest08" duration-ms="1175" started-at="2022-06-07T00:07:27Z" finished-at="2022-06-07T00:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest08 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_008@11438d26]" name="tearDown" is-config="true" duration-ms="789" started-at="2022-06-07T00:07:28Z" finished-at="2022-06-07T00:07:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_008 -->
       <class name="com.testCases.JMB_CALogin_007">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_007@305fd85d]" name="setup" is-config="true" duration-ms="13599" started-at="2022-06-05T00:05:55Z" finished-at="2022-06-05T00:06:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_007@458c1321]" name="setup" is-config="true" duration-ms="12981" started-at="2022-06-07T00:06:57Z" finished-at="2022-06-07T00:07:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="candidateSignup()[pri:1, instance:com.testCases.JMB_CALogin_007@305fd85d]" name="candidateSignup" duration-ms="1907" started-at="2022-06-05T00:06:08Z" finished-at="2022-06-05T00:06:10Z">
+        <test-method status="PASS" signature="loginTest07()[pri:1, instance:com.testCases.JMB_CALogin_007@458c1321]" name="loginTest07" duration-ms="1888" started-at="2022-06-07T00:07:10Z" finished-at="2022-06-07T00:07:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- candidateSignup -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_007@305fd85d]" name="tearDown" is-config="true" duration-ms="791" started-at="2022-06-05T00:06:10Z" finished-at="2022-06-05T00:06:11Z">
+        </test-method> <!-- loginTest07 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_007@458c1321]" name="tearDown" is-config="true" duration-ms="1194" started-at="2022-06-07T00:07:12Z" finished-at="2022-06-07T00:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.JMB_CALogin_007 -->
       <class name="com.testCases.JMB_CALogin_006">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_006@1877ab81]" name="setup" is-config="true" duration-ms="10552" started-at="2022-06-05T00:05:41Z" finished-at="2022-06-05T00:05:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.JMB_CALogin_006@305fd85d]" name="setup" is-config="true" duration-ms="13080" started-at="2022-06-07T00:06:41Z" finished-at="2022-06-07T00:06:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest06()[pri:1, instance:com.testCases.JMB_CALogin_006@1877ab81]" name="loginTest06" duration-ms="1928" started-at="2022-06-05T00:05:52Z" finished-at="2022-06-05T00:05:54Z">
+        <test-method status="PASS" signature="loginTest06()[pri:1, instance:com.testCases.JMB_CALogin_006@305fd85d]" name="loginTest06" duration-ms="2001" started-at="2022-06-07T00:06:54Z" finished-at="2022-06-07T00:06:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest06 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_006@1877ab81]" name="tearDown" is-config="true" duration-ms="872" started-at="2022-06-05T00:05:54Z" finished-at="2022-06-05T00:05:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.JMB_CALogin_006@305fd85d]" name="tearDown" is-config="true" duration-ms="833" started-at="2022-06-07T00:06:56Z" finished-at="2022-06-07T00:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

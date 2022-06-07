@@ -1,5 +1,7 @@
 package com.pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -55,34 +57,34 @@ public class LoginPage {
 	@FindBy(xpath = "//*[@id=\"candidateLogin\"]/div[3]/div[3]/div[1]/a")
 	@CacheLookup
 	WebElement forgotPasswordLink;
-	
+
 	//capture please enter  email
 	@FindBy(xpath = ".//*[@id='candidateLogin']/div[3]/div[1]/div/span")
 	WebElement emailError;
-	
+
 	//capture please enter  password
-		@FindBy(xpath = ".//*[@id='candidateLogin']/div[3]/div[2]/div/div/span")
-		WebElement passError;
+	@FindBy(xpath = ".//*[@id='candidateLogin']/div[3]/div[2]/div/div/span")
+	WebElement passError;
 
 	// ==================Action methods===========================//
 
 	// Send text to the email field
 	public void settxtemail(String email) {
-		WebDriverWait wait = new WebDriverWait(ldriver, 25);
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOf(txtemail));
 		txtemail.sendKeys(email);
 	}
 
 	// Send text to password field
 	public void settxtpassword(String pwd) {
-		WebDriverWait wait = new WebDriverWait(ldriver, 25);
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOf(txtpassword));
 		txtpassword.sendKeys(pwd);
 	}
 
 	// Click on submit button
 	public void clkbtnSubmit() {
-		WebDriverWait wait = new WebDriverWait(ldriver, 25);
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOf(btnSubmit));
 		wait.until(ExpectedConditions.elementToBeClickable(btnSubmit));
 		btnSubmit.click();
@@ -90,54 +92,69 @@ public class LoginPage {
 
 	// display "invalid credentials" message
 	public String displayInvalidCredentialsMessage() {
-		@SuppressWarnings("deprecation")
-		WebDriverWait wait = new WebDriverWait(ldriver, 25);
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOf(invalidCredentialsText));
 		return invalidCredentialsText.getText();
 	}
-	
+
 
 	// click on sign up link
 	public void clickOnSignUpLink() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(signUpLink));
 		signUpLink.click();
 	}
 
 	// click on candidate sign up link
 	public void clickOnCandidateSignUpLink() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(candidateSignUpLink));
 		candidateSignUpLink.click();
 	}
 
 	// click on forgot password link
 	public void clickOnForgotPasswordLink() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(forgotPasswordLink));
 		forgotPasswordLink.click();
 	}
 
 	// to display email text box in login page
 	public Boolean isEmailTextBoxDisplayed() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(txtemail));
 		return txtemail.isDisplayed();
 	}
 
 	// to display password text box in login page
 	public Boolean isPasswordTextBoxDisplayed() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(txtpassword));
 		return txtpassword.isDisplayed();
 	}
 
 	// to display submit button in login page
 	public Boolean isSubmitButtonDisplayed() {
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(btnSubmit));
 		return btnSubmit.isDisplayed();
 	}
-	
+
 	//To return email error message
 	public String getEmailErrorMessage(){
-	String message = 	emailError.getText();
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(emailError));
+		String message = 	emailError.getText();
 		return message;
-		
+
 	}
 	//To return password error message
-		public String getPasswordErrorMessage(){
+	public String getPasswordErrorMessage(){
+		WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(passError));
 		String message = 	passError.getText();
-			return message;
-			
-		}
+		return message;
+
+	}
 
 }
